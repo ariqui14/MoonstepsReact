@@ -1,0 +1,9 @@
+.moonstepPopup {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  left: 750px;
+  top: 475px;
+  transform: translate(-50%, -50%);
+}
+

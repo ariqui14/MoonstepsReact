@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.moonstepPopup {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  left: 750px;
+  top: 525px;
+  color: red;
+  transform: translate(-50%, -50%);
+}
+
