@@ -5,7 +5,7 @@ import { Unstable_Popup as BasePopup } from "@mui/base/Unstable_Popup";
 import { ClickAwayListener } from "@mui/base/ClickAwayListener";
 import { styled } from "@mui/system";
 import "./Popup.css";
-import { CurrentMoonstepList, randomMoonstep } from "./MoonstepFunctions";
+import { CurrentMoonstepList, randomObjFromArray } from "./MoonstepFunctions";
 
 export default function Popup() {
   const [count, setCount] = useState(0);
@@ -41,7 +41,7 @@ export default function Popup() {
                   <TextField
                     id="filled-textarea"
                     label="Add today's Moonstep"
-                    placeholder={randomMoonstep(currentMoonsteps)}
+                    placeholder={randomObjFromArray(currentMoonsteps)}
                     multiline
                     variant="filled"
                     InputProps={{
